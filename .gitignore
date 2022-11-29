@@ -1,17 +1,16 @@
-# Libraries
-*.lvlibp
-*.llb
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-
-# Metadata
-*.aliases
-*.lvlps
-.cache/
+/ssh/id_*
+/ssh/id_rsa
+/ssh/*_rsa*
+/ssh/known_hosts
+/gnupg/*.d/
+/gnupg/*.db
+/gnupg/*.gpg
+/gnupg/*.kbx
+/gnupg/*.private.*
+/gnupg/*.lock
+/gnupg/.*
+/gnupg/gpg-agent.conf
+bundle/cache
+secrets
+rbenv/*/
+Brewfile.lock.json
